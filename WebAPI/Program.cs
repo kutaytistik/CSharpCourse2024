@@ -15,6 +15,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton<IBrandService, BrandManager>();
 builder.Services.AddSingleton<IBrandDal, BrandDal>();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
